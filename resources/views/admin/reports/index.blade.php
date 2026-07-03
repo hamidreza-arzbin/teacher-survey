@@ -55,7 +55,7 @@
                             <tr>
 
                                 <td>
-                                    {{ $teacher->id }}
+                                    {{ $loop->iteration }}
                                 </td>
 
                                 <td class="fw-bold">
